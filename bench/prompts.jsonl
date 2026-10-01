@@ -1,0 +1,50 @@
+{"prompt": "How many rows are in sales.csv?", "expected": "csv-summary"}
+{"prompt": "Summarize data/students.csv for me", "expected": "csv-summary"}
+{"prompt": "What columns does orders.csv have?", "expected": "csv-summary"}
+{"prompt": "Give me stats for the CSV file readings.csv", "expected": "csv-summary"}
+{"prompt": "Show the min and max of each numeric column in temps.csv", "expected": "csv-summary"}
+{"prompt": "What's in this csv: patients.csv?", "expected": "csv-summary"}
+{"prompt": "Describe the dataset budget.csv", "expected": "csv-summary"}
+{"prompt": "Count the records in inventory.csv", "expected": "csv-summary"}
+{"prompt": "Average values in the file marks.csv please", "expected": "csv-summary"}
+{"prompt": "Look at survey.csv and tell me what it contains", "expected": "csv-summary"}
+{"prompt": "Convert 12 km to miles", "expected": "unit-convert"}
+{"prompt": "How many pounds is 70 kg?", "expected": "unit-convert"}
+{"prompt": "What is 98.6 F in Celsius?", "expected": "unit-convert"}
+{"prompt": "5 gallons is how many litres?", "expected": "unit-convert"}
+{"prompt": "Convert 300 cm to inches", "expected": "unit-convert"}
+{"prompt": "How many ounces in 250 grams?", "expected": "unit-convert"}
+{"prompt": "Turn 0 Celsius into Kelvin", "expected": "unit-convert"}
+{"prompt": "How many feet are in 2 miles?", "expected": "unit-convert"}
+{"prompt": "Convert 3 cups to millilitres", "expected": "unit-convert"}
+{"prompt": "What is 100 yards in metres?", "expected": "unit-convert"}
+{"prompt": "Find my notes that mention the vaccine fridge", "expected": "note-search"}
+{"prompt": "Search my notes for 'budget meeting'", "expected": "note-search"}
+{"prompt": "Which note files talk about Rahul?", "expected": "note-search"}
+{"prompt": "Look up 'deadline' in my notes folder", "expected": "note-search"}
+{"prompt": "Do any of my notes mention the clinic schedule?", "expected": "note-search"}
+{"prompt": "Search notes for the word passport", "expected": "note-search"}
+{"prompt": "Find where I wrote about the API key rotation", "expected": "note-search"}
+{"prompt": "grep my text notes for 'standup'", "expected": "note-search"}
+{"prompt": "What did I write about the hackathon in my notes?", "expected": "note-search"}
+{"prompt": "Search my markdown notes for 'tax'", "expected": "note-search"}
+{"prompt": "What does report.pdf say?", "expected": "pdf-extract"}
+{"prompt": "Extract the text from paper.pdf", "expected": "pdf-extract"}
+{"prompt": "Read the first page of invoice.pdf", "expected": "pdf-extract"}
+{"prompt": "Give me the content of syllabus.pdf", "expected": "pdf-extract"}
+{"prompt": "What's written in the PDF resume.pdf?", "expected": "pdf-extract"}
+{"prompt": "Pull the text out of manual.pdf, first 2 pages", "expected": "pdf-extract"}
+{"prompt": "Summarize lecture1.pdf for me", "expected": "pdf-extract"}
+{"prompt": "What is on page 1 of contract.pdf?", "expected": "pdf-extract"}
+{"prompt": "Open brochure.pdf and tell me what it says", "expected": "pdf-extract"}
+{"prompt": "Get me the text of thesis.pdf", "expected": "pdf-extract"}
+{"prompt": "What is the capital of France?", "expected": null}
+{"prompt": "Say hello", "expected": null}
+{"prompt": "Explain recursion in one sentence", "expected": null}
+{"prompt": "What is 2 + 2?", "expected": null}
+{"prompt": "Tell me a fun fact about octopuses", "expected": null}
+{"prompt": "Who wrote Hamlet?", "expected": null}
+{"prompt": "Give me three tips for studying", "expected": null}
+{"prompt": "What does CPU stand for?", "expected": null}
+{"prompt": "Name a primary colour", "expected": null}
+{"prompt": "What is the speed of light, roughly?", "expected": null}
