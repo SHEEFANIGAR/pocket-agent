@@ -37,21 +37,5 @@ Add your own: create `skills/<name>/SKILL.md` (name must match the directory) an
 - Sandboxed script runner: skill-local scripts only, timeout, no shell
 - Benchmark harness for constrained vs. unconstrained decoding
 
-## Benchmark
-50 prompts (`bench/prompts.jsonl`: 10 each for 4 skills + 10 that need no skill), first-step
-action only, same system prompt in both modes, temperature 0.1.
-
-- **Strict valid**: raw output parses as a valid action naming a real skill
-- **Lenient valid**: same after stripping ``` fences (a fair baseline)
-- **Correct skill**: chose the expected skill, or answered directly when none applies
-
-Reproduce: put GGUFs in `models/`, then `./run_bench.sh`. Results land in `results/*.json`.
-
-| Model | Mode | Strict valid | Lenient valid | Correct skill |
-|---|---|---|---|---|
-| qwen2.5-1.5b | constrained | _run_bench.sh_ | | |
-| qwen2.5-1.5b | unconstrained | | | |
-| qwen2.5-3b | constrained | | | |
-| qwen2.5-3b | unconstrained | | | |
 
 License: MIT
